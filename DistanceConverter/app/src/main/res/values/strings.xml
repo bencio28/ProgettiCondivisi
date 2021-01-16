@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DistanceConverter</string>
+    <string name="inserisci_le_miglia_da_convertire_in_chilometri">Inserisci le miglia da convertire in chilometri:</string>
+    <string name="chilometri_corrispondenti">Chilometri corrispondenti:</string>
+    <string name="risultato">Risultato</string>
+    <string name="converti">Converti</string>
+    <string name="miglia">Miglia</string>
+</resources>
