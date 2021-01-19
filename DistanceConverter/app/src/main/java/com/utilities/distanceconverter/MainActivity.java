@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    final double M2KM = 1.6;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String  milesStringToConvert = milesToConvert.getText().toString();
                 double miles = Double.parseDouble(milesStringToConvert);
-                double kilometers = miles * 1.6;
-                String finalResult = String.valueOf(kilometers);
+                double kilometers = miles * M2KM;
+                String finalResult = String.format("%.2f km", kilometers);
                 kmResult.setText(finalResult);
             }
 
