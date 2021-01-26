@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KotConvUI</string>
+    <string name="miglia">Miglia</string>
+    <string name="i_chilometri_corrispondenti_sono">I chilometri corrispondenti sono</string>
+
+    <string name="inserisci_le_miglia_da_convertire">Inserisci le miglia da convertire</string>
+    <string name="converti">Converti</string>
+</resources>
