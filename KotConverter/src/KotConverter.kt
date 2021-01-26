@@ -12,6 +12,6 @@ fun main(args: Array<String>) {
     println("Inserisci le miglia da convertire in chilometri  : ")
     val miles: Double = sc.nextDouble()
 
-    println("$miles Corrispondono a :  ${miles * M2KM}  KMs")
+    println("$miles Corrispondono a :  ${miles * M2KM} chilometri")
 
 }
