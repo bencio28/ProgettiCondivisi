@@ -1,3 +1,3 @@
-class Gear(var armour: Item, var weapon: Weapon ): Inventory(2) {
+class Gear(var armour: Item, var weapon: Weapon ): Inventory(0) {
 
 }
