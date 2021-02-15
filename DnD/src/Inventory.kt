@@ -15,6 +15,13 @@ open class Inventory (var size: Int = 10){
             println("L'inventario è pieno, libera dello spazio prima di aggiungere qualcosa")
         }
     }
+    
+    fun removeItem(name: Item) {
+        if (inventory.contains(name)) {
+            inventory.remove(name)
+            println("${name.name} rimosso dall'inventario")
+        }
+    }
 
     fun useItemBeta(name: Item): Item {
         val blankItem = Item("")
