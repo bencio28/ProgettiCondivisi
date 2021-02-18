@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">DnD</string>
-    <string name="create_new_character">Create New Character</string>
-    <string name="basic_dnd">Basic DnD</string>
-    <string name="crea_nuovo_personaggio">Crea nuovo personaggio</string>
-    <string name="inserisci_il_nome_del_personaggio">Inserisci il nome del personaggio</string>
-    <string name="nome_eroe">Nome eroe</string>
-    <string name="fatto">Fatto!</string>
-</resources>
