@@ -7,6 +7,8 @@ open class GameCharacter(
     var gear: Gear = Gear(),
     var exp: Int = 0
 ) {
+
+   //FUNZIONI DA RIADATTARE PER LA VERSIONE ANDROID
     fun greet() {
         println("Ciao mi chiamo $name , un eroe di livello $level!")
     }
