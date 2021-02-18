@@ -1,5 +1,8 @@
 open class Inventory (var size: Int = 10){
     val inventory = mutableListOf<Item>()
+
+    //FUNZIONI DA RIADATTARE PER LA VERSIONE ANDROID
+
     fun open(){
         if (inventory.isEmpty()){
             println("L'inventario è vuoto")
